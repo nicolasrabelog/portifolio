@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Monteriggioni</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #516091;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 250px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-info h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .product-info p {
+            color: #777;
+        }
+
+        .price {
+            font-size: 1.2em;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .section-title {
+            width: 100%;
+            text-align: center;
+            margin: 40px 0 20px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Casa Monteriggioni</h1>
+        <h2>Conheça a nossa coleção de primavera, te proporcionamos a roupa que faz sua estação.</h2>
+    </header>
+
+    <!-- Seção de Roupas -->
+    <div class="container text-center">
+        <div class="section-title">
+            <h2>Roupas Coleção Primavera</h2>
+        </div> 
+        <div class="container">
+            <!-- Produto 1 -->
+            <div class="product">
+                <img src="https://images.tcdn.com.br/img/img_prod/586374/90_camiseta_masculina_lisa_basica_adulto_malwee_preto_7226_1_2ec66bbb015668582fc8023188f07089.jpg"
+                    alt="Camiseta">
+                <div class="product-info">
+                    <h3>Camiseta Clutch</h3>
+                    <p>Uma camiseta confortável e versátil para o seu dia a dia.</p>
+                    <p class="preço">R$ 49,90</p>
+                </div>
+            </div>
+
+            <!-- Produto 2 -->
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/618eE4YkOAL._AC_SX679_.jpg" alt="Vestido">
+                <div class="product-info">
+                    <h3>Vestido Floral</h3>
+                    <p>Vestido elegante, perfeito para ocasiões especiais.</p>
+                    <p class="preço">R$ 129,90</p>
+                </div>
+            </div>
+
+            <!-- Produto 3 -->
+            <div class="product">
+                <img src="https://images.tcdn.com.br/img/img_prod/769687/calca_jeans_masculina_mais_comprida_longa_premium_jamer_2649_1_d32393952c59a63e5a115ae22d492fd0.jpg"
+                    alt="Calça">
+                <div class="product-info">
+                    <h3>Calça Carpinteiro</h3>
+                    <p>Calça jeans carpineiro de corte reto, ideal para qualquer estação.</p>
+                    <p class="preço">R$ 99,90</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de Acessórios -->
+    <div class="container text-center">
+        <div class="section-title">
+            <h2>Acessórios</h2>
+        </div>
+        <div class="product-container">
+            <!-- Produto 4 (Acessório 1) -->
+            <div class="product">
+                <img src="https://img.irroba.com.br/fit-in/600x600/filters:format(webp):fill(fff):quality(80)/helderjo/catalog/relogios/2165rl-13495h-20785.jpg" alt="Relógio">
+                <div class="product-info">
+                    <h3>Relógio de Pulso</h3>
+                    <p>Relógio clássico, ideal para ocasiões formais e casuais.</p>
+                    <p class="price">R$ 199,90</p>
+                </div>
+            </div>
+
+            <!-- Produto 5 (Acessório 2) -->
+            <div class="product">
+                <img src="https://chillibeans.vteximg.com.br/arquivos/ids/521773-1000-1000/OC-CL-3642-2108-Oculos-De-Sol-Masculino-Chilli-Beans-Essential-Quadrado.jpg" alt="Óculos de Sol">
+                <div class="product-info">
+                    <h3>Óculos de Sol</h3>
+                    <p>Óculos de sol estiloso para proteger seus olhos com estilo.</p>
+                    <p class="price">R$ 79,90</p>
+                </div>
+            </div>
+
+            <!-- Produto 6 (Acessório 3) -->
+            <div class="product">
+                <img src="https://images.tcdn.com.br/img/img_prod/667148/bolsa_couro_legitimo_feminina_transversal_luxo_1681_1_99708e5549530b0be59bbe161a735b94.jpg" alt="Bolsa">
+                <div class="product-info">
+                    <h3>Bolsa de Couro</h3>
+                    <p>Bolsa de couro elegante, ideal para o dia a dia.</p>
+                    <p class="price">R$ 159,90</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Loja Monteriggioni | Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
